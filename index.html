@@ -13,8 +13,81 @@
     <title></title>
 </head>
 <body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="100">
-    
-    
+    <!----Navigation Bar Starts-->
+    <header id="header" class="header_wrapper">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="container-fluid">
+                    <a class="navbar-brand fs-2 fw-bold text-info" href="#">
+                        <i class="fa-solid fa-graduation-cap me-3"></i>Educa
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link px-4 fs-5 active" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link px-4 fs-5" href="#">Category</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link px-4 fs-5" href="#">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link px-4 fs-5" href="#">Courses</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link px-4 fs-5" href="#">Contact</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link px-4 fs-5" href="#">Review</a>
+                            </li>
+                        </ul>
+                        <form class="d-flex">
+                            <button class="btn btn-outline-none bg-transparent text-info py-2 px-4 fw-bold border border-2 border-info" type="submit">Register</button>
+                        </form>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <!---Navigation Bar Ends-->
+    <section class="hero_wrapper mt-5" id="hero">
+        <div class="container">
+            <div class="row position-relative">
+                <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="img/cover/cover-1.png" class="img-fluid d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/cover/cover-2.jpg" class="img-fluid d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/cover/cover-3.jpg" class="img-fluid d-block w-100" alt="...">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+                <div class="text-center col-10 col-sm-10 col-md-8 col-lg-6 position-absolute content">
+                    <h1 class="display-5 fw-bold text-white text-capitalize">
+                        A Better Learning Future Starts Here <span class="text-info">Get Started</span>
+                    </h1>
+                    <p class="text-light fs-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium provident explicabo facere non, adipisci autem.</p>
+                    <button class="btn btn-outline-none bg-info text-white border-0 my-3 py-2 px-4 fw-bold border border-2" type="submit">Register</button>
+                </div>
+            </div>
+        </div>
+    </section>
 <!---Custom Javascript Link--->
 <script src="js/script.js"></script>    
 <!---Bootstrap Javascript--->
