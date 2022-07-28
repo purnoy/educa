@@ -107,7 +107,7 @@
                 </div>
             </div>
         </div>
-        <div class="container">
+        <div class="container-fluid">
             <div class="d-flex flex-wrap justify-content-around mx-3">
                 <div class="col-lg-5 col-md-12 col-sm-12 shadow-lg border-gray rounded d-flex justify-content-between m-3 flex-md-row flex-lg-row flex-md-row flex-sm-column flex-column border border-gray">
                     <div class="col-lg-6 col-md-4 col-sm-10 col-10 mx-auto text-sm-center text-lg-start text-md-start text-center">
@@ -405,11 +405,90 @@
     <!---FAQ Section Starts--->
     <section id="faq" class="faq_wrapper my-5">
         <div class="container my-5">
-            <h1 class="text-black fw-bold text-center display-5 text-capitalize">Reviews from our student</h1>
-            <p class="text-secondary  fs-4 text-center">Check our what our students say about us.</p>
+            <div class="col-8 mx-auto">
+                <h1 class="text-black fw-bold text-center display-5 text-capitalize">Frequently Asked Question</h1>
+                <p class="text-secondary fs-4 text-center">Confused About Something? Don't worry check out our frequently asked questions and get a clear concept.</p>
+            </div>
+        </div>
+        <div class="container">
+            <div class="col-lg-8 col-md-10 col-11 mx-auto">
+                <div class="accordion" id="accordionExample">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                           <p class="fw-bold fs-5 text-danger">What are differences between Flexbox and Grid?</p>
+                        </button>
+                      </h2>
+                      <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                          The CSS Grid Layout is a two-dimensional grid-based layout system with rows and columns. It is useful in creating more complex and organized layouts.The CSS Flexbox is a one-dimensional layout. It is useful in allocating and aligning the space among items in a grid container. It works with various kinds of display devices and screen sizes. Flex layout makes it easier to design and build responsive web pages without using many float and position properties in the CSS code.
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            <p class="fw-bold fs-5 text-danger">What are differences between Bootstrap and Tailwind CSS?</p>
+                        </button>
+                      </h2>
+                      <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            Bootstrap comes with a set of pre-styled responsive, mobile-first components that possess a definite UI kit. Sites created using Bootstrap follow the generic pattern that makes them look identical. Tailwind offers predesigned widgets to build a site from scratch with fast UI development. Tailwind CSS uses a set of utility classes to create a neat UI with more flexibility and uniqueness.
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                <p class="fw-bold fs-5 text-danger">What is CSS Box Model?</p>
+                            </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                The CSS box model is a container that contains multiple properties including borders, margin, padding, and the content itself. It is used to create the design and layout of web pages. It can be used as a toolkit for customizing the layout of different elements. The web browser renders every element as a rectangular box according to the CSS box model. Box-Model has multiple properties in CSS.
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                <p class="fw-bold fs-5 text-danger">What is Semantic Tag?</p>
+                            </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                Semantic HTML or semantic markup is HTML that introduces meaning to the web page rather than just presentation. For example, a p tag indicates that the enclosed text is a paragraph. This is both semantic and presentational because people know what paragraphs are, and browsers know how to display them. On the flip side of this equation, tags such as b and i are not semantic. They define only how the text should look (bold or italic), and don't provide any additional meaning to the markup.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
     <!---FAQ Section Ends-->
+
+    <!---Footer Section Starts--->
+    <footer id="footer" class="footer_wrapper">
+        <div class="container-fluid bg-black mx-auto py-5">
+            <div class="row justify-content-center align-items-center">
+                <div class="col-8 text-center">
+                    <a class="fs-2 fw-bold text-white text-center my-2" href="#">
+                        <i class="fa-solid fa-graduation-cap me-3"></i>Educa
+                    </a>
+                    <p class=" fs-5 my-3 text-white text-center">House#28, Road#113, Lakeshore Drive Gulshan-2</p>
+                    <div class="social my-3">
+                        <a href="https://www.facebook.com/purnoy.21/" target="_blank"><i class="fa-brands fa-facebook fa-2x mx-1  text-white"></i></a>
+                        <a href="https://www.instagram.com/purnoy/" target="_blank"><i class="fa-brands fa-instagram fa-2x mx-1 text-white"></i></a>
+                        <a href="https://cutt.ly/hQRTrB4" target="_blank"><i class="fa-brands fa-youtube fa-2x mx-1 text-white"></i></a>
+                        <a href="https://www.linkedin.com/in/purnoy/" target="_blank"><i class="fa-brands fa-linkedin fa-2x mx-1 text-white"></i></a>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!---Footer Section Ends--->
 <!---Custom Javascript Link--->
 <script src="js/script.js"></script>    
 <!---Bootstrap Javascript--->
