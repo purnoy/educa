@@ -30,19 +30,22 @@
                                 <a class="nav-link px-4 fs-5 active" aria-current="page" href="#home">Home</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link px-4 fs-5" href="#courses">Courses</a>
+                                <a class="nav-link px-3 fs-5" href="#courses">Courses</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link px-4 fs-5" href="#about">About</a>
+                                <a class="nav-link px-3 fs-5" href="#join">About</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link px-4 fs-5" href="#categories">Categories</a>
+                                <a class="nav-link px-3 fs-5" href="#join">Join Us</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link px-4 fs-5" href="#">Contact</a>
+                                <a class="nav-link px-3 fs-5" href="#alumni">Alumni</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link px-4 fs-5" href="#">Review</a>
+                                <a class="nav-link px-3 fs-5" href="#reviews">Reviews</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link px-3 fs-5" href="#faq">FAQ</a>
                             </li>
                         </ul>
                         <form class="d-flex justify-content-center ">
@@ -100,7 +103,7 @@
                     <h1 class="display-5 fw-bold text-black text-capitalize">
                         Discover Our Popular<br><span class="text-info">Courses</span>
                     </h1>
-                    <p class="text-gray fs-4">Find a course to help you reach where you want to go.</p>
+                    <p class="text-secondary fs-4">Find a course to help you reach where you want to go.</p>
                 </div>
             </div>
         </div>
@@ -194,7 +197,7 @@
     </section>
     <!---Courses Section Ends--->
 
-    <!---About Section Starts--->
+    <!---Join Section Starts--->
     <section id="about" class="about_wrapper my-5 py-5 bg-light">
         <div class="container mx-auto">
             <div class="d-flex align-items-center justify-content-center flex-lg-row flex-md-row
@@ -231,52 +234,182 @@
         </div>
     </section>
     <!---About Section Ends--->
-    <!---Join Section-->
-    <div class="container bg-info rounded py-5">
-        <div class="row ">
-            <div class="col-lg-6 col-md-7 col-sm-9  mx-auto text-center ">
-                <h1 class="display-3 text-capitalize fw-bold text-white text-center">Ready to Join</h1>
-                <p class="fs-5 text-white text-center">Take one of Udemy’s range of Python courses and learn how to code using this incredibly useful language.  </p>
-                <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal" class="text-center fs-4 btn btn-outline-none bg-white text-info border-0 my-3 py-2 px-5 fw-bold border border-2" type="submit">Register</button>
-
-                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                    <div class="modal-dialog">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                            <h5 class="modal-title" id="exampleModalLabel">Registration Form</h5>
-                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+    <!---Join Section Starts-->
+    <section id="join" class="join_wrapper my-5">
+        <div class="container bg-info rounded py-5">
+            <div class="row">
+                <div class="col-lg-6 col-md-7 col-sm-9  mx-auto text-center">
+                    <h1 class="display-3 text-capitalize text-lg-start text-center fw-bold text-white text-center ms-lg-5">Ready to Join</h1>
+                    <p class="fs-5 ms-lg-5 text-white text-lg-start text-center">Take one of Educa’s range of Python courses and learn how to code using this incredibly useful language.  </p>
+                </div>
+                <div class="col-lg-6 col-md-7 col-sm-9  mx-auto text-center  d-flex align-items-center justify-content-center">
+                    <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal" class="text-center fs-4 btn btn-outline-none bg-white text-info border-0 my-3 py-2 px-5 fw-bold border border-2 align-items-center" type="submit">Register</button>
+                <!----Modal------>
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Registration Form</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="conatiner">
+                                        <form>
+                                            <div class="mb-3 d-flex justify-content-between">
+                                                <label for="exampleInputEmail1" class="form-label mx-1">Your Name</label>
+                                                <input type="email" class="form-control mx-1" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                                <input type="email" class="form-control mx-1" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                            </div>
+                                            <div class="mb-3 d-flex justify-content-between">
+                                                <label for="exampleInputEmail1" class="form-label mx-1">Email address</label>
+                                                <input type="email" class="form-control mx-1" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                                
+                                            </div>
+                                            <div class="mb-3 d-flex justify-content-between">
+                                              <label for="exampleInputPassword1" class="form-label mx-1">Password</label>
+                                              <input type="password" class="form-control mx-1" id="exampleInputPassword1">
+                                            </div>
+                                            <div class="mb-3 d-flex form-check">
+                                              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                              <label class="form-check-label mx-3" for="exampleCheck1">Check me out</label>
+                                            </div>
+                                            <button type="submit" class="btn btn-primary">Submit</button>
+                                          </form>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="modal-body">
-                                <div class="conatiner">
-                                    <form>
-                                        <div class="mb-3 d-flex justify-content-between">
-                                            <label for="exampleInputEmail1" class="form-label mx-1">Your Name</label>
-                                            <input type="email" class="form-control mx-1" id="exampleInputEmail1" aria-describedby="emailHelp">
-                                            <input type="email" class="form-control mx-1" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        </div>
+                    </div>
+                    <!----Modal-->
+                </div>
+            </div>
+        </div>
+    </section>
+    <!---Join Section Ends-->
+    <!---Alumni Section Starts--->
+    <section id="alumni" class="alumni_wrapper my-5">
+        <div class="container">
+            <h1 class="text-black text-lg-start fw-bold text-center display-3">Our Top Students</h1>
+            <p class="text-secondary text-lg-start fs-4 text-center">We believe in hard work.<br>Our course let you inspire to do it.</p>
+            <div class="row justify-content-center mt-5">
+                <div class="col-lg-3 col-md-6 col-sm-10 col-10 mb-3">
+                    <div class="content border border-secondary text-center  rounded">
+                        <img src="img/student/student-1.png" class="img-fluid mb-3" alt="">
+                        <h3 class="fs-3 text-bold text-center">Minhajul Hoq</h3>
+                        <p class="text-secondary fs-5 py-1 text-center">UX/UI Experts</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-10 col-10 mb-3">
+                    <div class="content border border-secondary text-center  rounded">
+                        <img src="img/student/student-2.png" class="img-fluid mb-3" alt="">
+                        <h3 class="fs-3 text-bold text-center">Tahmidul Hoq</h3>
+                        <p class="text-secondary fs-5 py-1 text-center">PHP Developer</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-10 col-10 mb-3">
+                    <div class="content border border-secondary text-center  rounded">
+                        <img src="img/student/student-3.png" class="img-fluid mb-3" alt="">
+                        <h3 class="fs-3 text-bold text-center">Fatema Khatun</h3>
+                        <p class="text-secondary fs-5 py-1 text-center">Javascript Developer</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-10 col-10 mb-5">
+                    <div class="content border border-secondary text-center  rounded">
+                        <img src="img/student/student-4.png" class="img-fluid mb-3" alt="">
+                        <h3 class="fs-3 text-bold text-center">Ashfa Islam</h3>
+                        <p class="text-secondary fs-5 py-1 text-center">Python Developer</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!---Alumni Section Ends--->
+    <!---Review Section Starts--->
+    <section id="review" class="review_wrapper my-5">
+        <div class="container my-5">
+            <h1 class="text-black fw-bold text-center display-5 text-capitalize">Reviews from our student</h1>
+            <p class="text-secondary  fs-4 text-center">Check our what our students say about us.</p>
+        </div>
+        <div class="container my-5">
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="container">
+                        <div class="row justify-content-evenly mx-4 rounded">
+                            <div class="col-lg-5 border border-secondary my-3">
+                                <div class="carousel-item active p-4">
+                                    <div class="d-flex align-items-center justify-content-between">
+                                        <div>
+                                            <i class="fa-solid fa-quote-right text-secondary fa-7x"></i>
                                         </div>
-                                        <div class="mb-3 d-flex justify-content-between">
-                                            <label for="exampleInputEmail1" class="form-label mx-1">Email address</label>
-                                            <input type="email" class="form-control mx-1" id="exampleInputEmail1" aria-describedby="emailHelp">
-                                            
+                                        <div>
+                                            <i class="fa-solid fa-star text-warning"></i>
+                                            <i class="fa-solid fa-star text-warning"></i>
+                                            <i class="fa-solid fa-star text-warning"></i>
+                                            <i class="fa-solid fa-star text-warning"></i>
+                                            <i class="fa-solid fa-star text-warning"></i>
                                         </div>
-                                        <div class="mb-3 d-flex justify-content-between">
-                                          <label for="exampleInputPassword1" class="form-label mx-1">Password</label>
-                                          <input type="password" class="form-control mx-1" id="exampleInputPassword1">
+                                    </div>
+                                    <p class="fs-5 text-secondary">
+                                        During almost a decade of working in high altitude astronomy with liquid cryogenics and industrial gas, I have no recollection of ever being sent on an industry recognized training course in the safe handling and use of them.
+                                    </p>
+                                    <div class="review image d-flex mt-3">
+                                        <img src="img/student/student-5.png" class="img-fluid me-3" alt="">
+                                        <div> 
+                                            <p class="fw-bold">Minhajul Hoque</p>
+                                            <p>UX/UI Designer</p>
                                         </div>
-                                        <div class="mb-3 d-flex form-check">
-                                          <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                                          <label class="form-check-label mx-3" for="exampleCheck1">Check me out</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-5 border border-secondary my-3">
+                                <div class="carousel-item active p-4">
+                                    <div class="d-flex align-items-center justify-content-between">
+                                        <div>
+                                            <i class="fa-solid fa-quote-right text-secondary fa-7x"></i>
                                         </div>
-                                        <button type="submit" class="btn btn-primary">Submit</button>
-                                      </form>
+                                        <div>
+                                            <i class="fa-solid fa-star text-warning"></i>
+                                            <i class="fa-solid fa-star text-warning"></i>
+                                            <i class="fa-solid fa-star text-warning"></i>
+                                            <i class="fa-solid fa-star text-warning"></i>
+                                            <i class="fa-solid fa-star text-warning"></i>
+                                        </div>
+                                    </div>
+                                    <p class="fs-5 text-secondary">
+                                        During almost a decade of working in high altitude astronomy with liquid cryogenics and industrial gas, I have no recollection of ever being sent on an industry recognized training course in the safe handling and use of them.
+                                    </p>
+                                    <div class="review image d-flex mt-3">
+                                        <img src="img/student/student-5.png" class="img-fluid me-3" alt="">
+                                        <div> 
+                                            <p class="fw-bold">Asma Khatun</p>
+                                            <p>UX/UI Designer</p>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon rounded-circle bg-primary" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                  <span class="carousel-control-next-icon rounded-circle bg-primary" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
         </div>
-    </div>
+    </section>
+    <!---Review Section Ends--->
+    <!---FAQ Section Starts--->
+    <section id="faq" class="faq_wrapper my-5">
+        <div class="container my-5">
+            <h1 class="text-black fw-bold text-center display-5 text-capitalize">Reviews from our student</h1>
+            <p class="text-secondary  fs-4 text-center">Check our what our students say about us.</p>
+        </div>
+    </section>
+    <!---FAQ Section Ends-->
 <!---Custom Javascript Link--->
 <script src="js/script.js"></script>    
 <!---Bootstrap Javascript--->
